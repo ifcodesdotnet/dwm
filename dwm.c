@@ -79,7 +79,7 @@ typedef struct {
 	unsigned int click;
 	unsigned int mask;
 	unsigned int button;
-	void (*func)(const Arg *arg);2
+	void (*func)(const Arg *arg);
 	const Arg arg;
 } Button;
 
